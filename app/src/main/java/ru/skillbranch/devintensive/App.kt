@@ -16,7 +16,6 @@ class App : Application() {
         AppCompatDelegate.setDefaultNightMode(PreferencesRepository.theme)
     }
 
-
     companion object {
         private lateinit var instance: App
 
